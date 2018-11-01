@@ -1,3 +1,3 @@
-FROM http
+FROM httpd
 COPY . /var/www/html 
 
