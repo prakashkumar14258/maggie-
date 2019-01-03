@@ -8,7 +8,7 @@ pipeline {
                 sh 'docker build -t prakashkumar12345:${BUILD_NUMBER} -f Dockerfile .'
                 sh 'docker push prakashkumar12345:${BUILD_NUMBER}'
                 sh 'ls'
-                sh 'rm -rf maggie'
+                sh 'rm -rf maggie-'
               
                  
             }
